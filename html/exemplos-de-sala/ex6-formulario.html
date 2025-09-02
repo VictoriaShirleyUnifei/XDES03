@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Meu formulário</h1>
+    <form action="https://www.google.com" method="GET">
+        <!-- text, number, color -->
+        <div>
+            <input type="text">
+            <input type="number">
+            <input type="color">
+        </div>
+
+        <!-- focus no input -->
+        <div class="entrada">
+            <label for="username" hidden="Nome de Usuário"></label>
+            <input type="text" id="username" name="username" placeholder="Nome de usuário">
+        </div>
+
+        <div class="entrada">
+            <label for="senha" hidden="Senha"></label>
+            <input type="password" id="senha" name="senha" placeholder="Senha">
+        </div>
+
+        <!-- button fora do formulário não é um submit -->
+        <button>Enviar</button> 
+    </form>
+
+    <!-- button fora do formulário não é um submit -->
+    <button type="button">Enviar</button> 
+</body>
+</html>
