@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://unifei.edu.br" target="_blank">UNIFEI</a></li>
+                <li><a href="https://proex.unifei.edu.br" target="_blank">PROEX</a></li>
+                <li><a href="https://unifei.edu.br/evento/integra" target="_blank">INTEGRA UNIFEI</a></li>
+            </ul>
+        </nav>
+        <h1>Formulário de Apresentação de Projetos de Extensão</h1>
+    </header>
+    <main>
+        <p>Nesse formulário sua equipe deverá preencher os dados do seu projeto de extensão para que a PROEX possa distribuir os stands de forma mais adequada.</p>
+        <form action="https://sigaa.unifei.edu.br/sigaa/verTelaLogin.do">
+            <fieldset>
+                <legend>Identificação do Projeto</legend>
+                <label for="nome-projeto">Nome do Projeto</label>
+                <input type="text" id="nome-projeto" name="nome-projeto">
+
+                <label for="quantidade-integrantes">Quantidade de integrantes</label>
+                <input type="number" id="quantidade-integrantes" name="quantidade-integrantes">
+                
+                <label for="instituto">Instituto de Localização</label>
+                <input type="text" id="instituto" name="instituto">
+            </fieldset>
+            <fieldset>
+                <legend>Área de Atuação</legend>
+                <p>Selecione apenas uma opção</p>
+
+                <input type="radio" name="area-atuacao" id="web-mobile" value="web-mobile" checked>
+                <label for="web-mobile">Aplicação Web/Mobile</label>
+
+                <input type="radio" name="area-atuacao" id="jogos" value="jogos">
+                <label for="jogos">Desenvolvimento de Jogos</label>
+
+                <input type="radio" name="area-atuacao" id="drones" value="drones">
+                <label for="drones">Drones</label>
+
+                 <input type="radio" name="area-atuacao" id="competicao-robos" value="competicao-robos">
+                <label for="competicao-robos">Competição de Robôs</label>
+
+                <input type="radio" name="area-atuacao" id="contabilidade" value="contabilidade">
+                <label for="contabilidade">Contabilidade</label>
+
+                <input type="radio" name="area-atuacao" id="metereologia" value="metereologia">
+                <label for="metereologia">Metereologia</label>
+            </fieldset>
+            <fieldset>
+                <legend>Fomento</legend>
+                <label for="fomento">Tipo</label>
+                <select name="fomento" id="fomento">
+                    <option value="empresa-junior">Empresa Júnior</option>
+                    <option value="projeto-extensao">Projeto de Extensão</option>
+                    <option value="projeto-especial">Projeto Especial</option>
+                    <option value="projeto-competicao">Projeto de Competição</option>
+                </select>
+            </fieldset>
+            <button>Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Feito com &hearts; por <span><a href="https://github.com/VictoriaShirleyUnifei" target="_blank">Minha página</a></span></p>
+    </footer>
+</body>
+</html>
