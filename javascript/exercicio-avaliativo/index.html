@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scoreboard Magic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Marcador de Pontuação Magic the Gathering</h1>
+      <section>
+        <img
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwH6PU1w4pDCbCXaCSdSkc9yzMubGMOo8d8gUH9JXJuo7W8jbt3YuBDX5vOoo7Ypieq382iwtBl-5Grw8TzxSkR6g16I0912v4VmKZky42-kRexw00V685KBpAo3xxc50HuJ377OHgpZQ/s640-rw/CAPA+2.jpg"
+          alt="Banner Magic the Gathering"
+        />
+        <div class="scoreboard-container">
+          <div class="scoreboard">
+            <span id="j1-score">0</span>
+            <span>a</span>
+            <span id="j2-score">0</span>
+          </div>
+          <div class="scoreboard">
+            <p>Escolha a Pontuação Vitoriosa</p>
+            <select name="define-scoreboard" id="define-scoreboard">
+              <option value="5">5</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+              <option value="25">25</option>
+            </select>
+          </div>
+          <p>Use os botões para marcar a pontuação vitoriosa</p>
+        </div>
+        <div class="buttons">
+            <button id="j1-button">Jogador 1</button>
+            <button id="j2-button">Jogador 2</button>
+            <button id="reset-button">Reiniciar</button>
+        </div>
+      </section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>

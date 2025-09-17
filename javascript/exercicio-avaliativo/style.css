@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+
+    img {
+        width: 100%;
+    }
+
+    .scoreboard-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .scoreboard {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        span {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        button {
+            width: 100%;
+            height: 35px;
+            color: #fff;
+        }
+
+        #j1-button {
+            background-color: green;
+        }
+
+        #j2-button {
+            background-color: blue;
+        }
+
+        #reset-button {
+            background-color: red;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
