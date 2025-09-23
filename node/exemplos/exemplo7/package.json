@@ -1,0 +1,15 @@
+{
+  "name": "exemplo7",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@colors/colors": "^1.6.0",
+    "country-data": "^0.0.31"
+  }
+}
