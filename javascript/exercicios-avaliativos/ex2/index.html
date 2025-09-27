@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comme:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>Jogo da Adivinhação</h1>
+      <section id="jogo" class="jogo">
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/672534-empresario-confuso-vetor.jpg" alt="" />
+        <div class="container">
+            <div class="area-pensamento">
+                <h2>Área do Pensamento</h2>
+                <p>
+                  Olá! Eu sou o Chat-Jequiti. Irei pensar em um número entre 'início' e
+                  'fim'. Após digitar os números, clique em 'Pensar'.
+                </p>
+                <label for="inicio">Início:</label>
+                <input type="number" id="inicio" />
+                <label for="fim">Fim:</label>
+                <input type="number" id="fim" />
+                <button id="pensar-btn" type="button">Pensar</button>
+            </div>
+
+            <div>
+                <h2>Área da Adivinhação</h2>
+                <div class="area-adivinhacao">
+                    <p>Qual número estou pensando?</p>
+                    <input type="number" id="palpite" />
+                    <button id="adivinhar-btn" type="button">Adivinhar</button>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section id="resultado"></section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
