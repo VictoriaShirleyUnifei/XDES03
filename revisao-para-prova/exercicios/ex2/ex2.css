@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 50px 50px 50px;
+    width: 40%;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 16px;
+
+    img {
+        width: 300px;
+        object-fit: cover;
+    }
+
+    .row {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 12px;
+    }
+
+    button {
+        width: 150px;
+        height: 30px;
+        border-radius: 14px;
+        font-size: 14px;
+        font-weight: semi-bold;
+        cursor: pointer;
+    }
+
+    input {
+        width: 150px;
+        height: 20px;
+        border-radius: 14px;
+        font-size: 14px;
+        font-weight: semi-bold;
+    }
+
+    .campoTexto {
+        width: 300px;
+        height: 30px;
+        padding: 6px;
+        border: 1px dotted black;
+        border-radius: 14px;
+    }
+}
+
